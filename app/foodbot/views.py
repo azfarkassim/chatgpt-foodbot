@@ -23,7 +23,7 @@ def generate_prompt(food):
 
 Food: Western
 Dishes: Spaghetti Carbonara, Pepperoni Pizza, Buffalo Chicken Wings
-Food
+Food: Malaysian
 Dishes: Nasi Lemak, Rendang, Char Kuey Teow
 Food: {}
 Dishes:""".format(
