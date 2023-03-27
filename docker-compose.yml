@@ -11,4 +11,6 @@ services:
       - ./app:/app
     environment:
       - SECRET_KEY=devsecretkey
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ALLOWED_HOSTS=${ALLOWED_HOSTS}
       - DEBUG=1
